@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kanit:wght@400;600&family=Poppins:wght@600&display=swap');
+body{
+    background: #373636;
+}
+.SearchCity{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.inputText{
+    width: 803px;
+    height: 62px;
+    flex-shrink: 0;
+    
+    border-radius: 40px;
+    background: #444;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    
+}
+.buttonCurrentLocation{
+    width: 292px;
+    height: 62px;
+    flex-shrink: 0;
+    margin-left: 81px;
+
+    border-radius: 40px;
+    background: #4CBB17;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration:none;
+}
+.buttonCurrentLocation span {
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+
+.OneBlogForecast{
+    padding-top: 50px;
+    display: none;
+    justify-content: center;
+}
+.DateCityTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 510px;
+    height: 330px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #444;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+}
+.city{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+}
+.time{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    padding-top: 50px;
+}
+.date{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+.WeatherForecastInThisDay{
+    width: 780px;
+    height: 330px;
+    border-radius: 30px;
+    background: #444;
+
+    display: flex;
+    margin-left: 55px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+}
+.TemperatureAndSunsetSunrise{
+    padding-top: 35px;
+    padding-left: 25px;
+}
+.mainTemperature{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    background: linear-gradient(84deg, #FFF -16.56%, rgba(255, 255, 255, 0.00) 118.43%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.FeelsLike{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.FeelsLike span{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+.sunsetSunrise{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 40px;
+}
+.sunrise, .Sunset{
+    display: flex;
+}
+.sunsetHeading, .sunriseHeading {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+.sunriseTime, .sunsetTime{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.SunCloudyRainy p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+
+
+.HumidityPressureWindSpeedUV{
+    padding-top: 26px;
+}
+.HumidityWindSpeed{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 13px
+}
+.PressureUV{
+    display: flex;
+}
+.Humidity, .WindSpeed, .Pressure, .UV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.HumidityData, .PressureData, .WindSpeedData, .UVData{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 13px 0 20px 0;
+}
+.HumidityHeading, .PressureHeading, .WindSpeedHeading, .UVHeading{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.Humidity {
+    padding-right: 43px;
+}
+.Pressure{
+    padding-right: 50px;
+}
+
+
+
+
+.TwoBlogForecast{
+    padding-top: 50px;
+    display: none;
+    justify-content: center;
+}
+.weekday{
+    width: 414px;
+    height: 366px;
+    border-radius: 30px;
+    background: #444;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+.weekdayFive{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    padding-top: 25px;
+}
+.weekday1, .weekday2, .weekday3, .weekday4, .weekday5{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items:center
+}
+.weekday1 p, .weekday2 p, .weekday3 p, .weekday4 p, .weekday5 p{
+    color: #FFF;    
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+.weekday1 span, .weekday2 span, .weekday3 span, .weekday4 span, .weekday5 span{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+.hourlyForecast{
+    width: 870px;
+    height: 366px;
+    border-radius: 30px;
+    background: #444;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+    margin-left: 55px;
+}
+.hourlyForecastHeading{
+    color: #FFF;    
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 15px;
+}
+.hourlyForecastFive{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.hourlyForecast1, .hourlyForecast2, .hourlyForecast3, .hourlyForecast4, .hourlyForecast5{
+    width: 130px;
+    height: 270px;
+    border-radius: 40px;
+    background: #373636;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
+.hourlyForecastTime1, .hourlyForecastTime2, .hourlyForecastTime3, .hourlyForecastTime4, .hourlyForecastTime5 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+.hourlyForecastTemperature1, .hourlyForecastTemperature2, .hourlyForecastTemperature3, .hourlyForecastTemperature4, .hourlyForecastTemperature5 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.hourlyForecastSpeed1, .hourlyForecastSpeed2, .hourlyForecastSpeed3, .hourlyForecastSpeed4, .hourlyForecastSpeed5{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.hourlyForecast1 img, .hourlyForecast3 img, .hourlyForecast5 img {
+    padding: 10px 0;
+}
+.hourlyForecast2 img, .hourlyForecast4 img {
+    padding: 5px 0;
+}
+
+.hourlyForecast3{
+    margin: 0 15px;
+}
+.hourlyForecast2{
+    margin-left: 15px;
+}
+.hourlyForecast4{
+    margin-right: 15px;
+}
+
+

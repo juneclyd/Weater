@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>WeatherForecast</title>
+</head>
+<body>
+    <div class="SearchCity">
+        <input type="text" placeholder="    Search for your preffered city..." class="inputText" id="idInputText">
+        <a href="#" class="buttonCurrentLocation">
+            <img src="./img/current location icon.svg" alt="">
+            <span>Current Location</span>
+        </a>
+    </div>
+    <div class="OneBlogForecast">
+        <div class="DateCityTime">
+            <p class="city">Athens</p>
+            <p class="time" id="time">09:03</p>
+            <p class="date">..</p>  
+        </div>
+        <div class="WeatherForecastInThisDay">
+            <div class="TemperatureAndSunsetSunrise">
+                <div class="Temperature">
+                    <p class="mainTemperature">24℃</p>
+                    <p class="FeelsLike">Feels like: <span class="feelsLikeSpan">22℃</span></p>
+                </div>
+                <div class="sunsetSunrise">
+                    <div class="sunrise">
+                        <div class="sunriseImg"><img src="./img/Sunrise.svg" alt=""></div>
+                        <div class="sunriseHeadingAndTime">
+                            <p class="sunriseHeading">Sunrise</p>
+                            <p class="sunriseTime">06:37 AM</p>
+                        </div>
+                    </div>
+                    <div class="Sunset">
+                        <div class="sunsetImg"><img src="./img/Sunset.svg" alt=""></div>
+                        <div class="sunsetHeadingAndTime">
+                            <p class="sunsetHeading">Sunset</p>
+                            <p class="sunsetTime">06:37 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SunCloudyRainy">
+                <img src="./img/clear 1.svg" alt="">
+                <p class="weatherWindows">Sunny</p>
+            </div>
+            <div class="HumidityPressureWindSpeedUV">
+                <div class="HumidityWindSpeed">
+                    <div class="Humidity">
+                        <img src="./img/humidity 1.svg" alt="">
+                        <p class="HumidityData">41%</p>
+                        <p class="HumidityHeading">Humidity</p>
+                    </div>
+                    <div class="WindSpeed">
+                        <img src="./img/wind 1.svg" alt="">
+                        <p class="WindSpeedData">2km/h</p>
+                        <p class="WindSpeedHeading">Wind Speed</p>
+                    </div>
+                    
+                </div>
+                <div class="PressureUV">
+                    <div class="Pressure">
+                        <img src="./img/pressure-white 1.svg" alt="">
+                        <p class="PressureData">997hPa</p>
+                        <p class="PressureHeading">Pressure</p>
+                    </div>
+                    <div class="UV">
+                        <img src="./img/uv-white 1.svg" alt="">
+                        <p class="UVData">8</p>
+                        <p class="UVHeading">UV</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="TwoBlogForecast">
+        <div class="weekday">
+            <p class="weekdayFive">5 Days Forecast:</p>
+            <div class="weekday1">
+                <img src="./img/weekday1.svg" alt="">
+                <p>20°C</p>
+                <span>Friday, 1 Sep</span>
+            </div>
+            <div class="weekday2">
+                <img src="./img/weekday2.svg" alt="">
+                <p>22°C</p>
+                <span>Saturday, 2 Sep</span>
+            </div>
+            <div class="weekday3">
+                <img src="./img/weekday3.svg" alt="">
+                <p>27°C</p>
+                <span>Sunday, 3 Sep</span>
+            </div>
+            <div class="weekday4">
+                <img src="./img/weekday4.svg" alt="">
+                <p>18°C</p>
+                <span>Monday, 4 Sep</span>
+            </div>
+            <div class="weekday5">
+                <img src="./img/weekday5.svg" alt="">
+                <p>16°C</p>
+                <span>Tuesday, 5 Sep</span>
+            </div>
+        </div>
+        <div class="hourlyForecast">
+            <p class="hourlyForecastHeading">Hourly Forecast:</p>
+            <div class="hourlyForecastFive">
+                <div class="hourlyForecast1">
+                    <p class="hourlyForecastTime1">12:00</p>
+                    <img src="./img/weekday3.svg" alt="">
+                    <p class="hourlyForecastTemperature1">26°C</p>
+                    <img src="./img/navigation 1.svg" alt="">
+                    <p class="hourlyForecastSpeed1">3km/h</p>
+                </div>
+                <div class="hourlyForecast2">
+                    <p class="hourlyForecastTime2">15:00</p>
+                    <img src="./img/weekday3.svg" alt="">
+                    <p class="hourlyForecastTemperature2">26°C</p>
+                    <img src="./img/navigation 2.svg" alt="">
+                    <p class="hourlyForecastSpeed2">3km/h</p>
+                </div>
+                <div class="hourlyForecast3">
+                    <p class="hourlyForecastTime3">18:00</p>
+                    <img src="./img/weekday1.svg" alt="">
+                    <p class="hourlyForecastTemperature3">26°C</p>
+                    <img src="./img/navigation 3.svg" alt="">
+                    <p class="hourlyForecastSpeed3">3km/h</p>
+                </div>
+                <div class="hourlyForecast4">
+                    <p class="hourlyForecastTime4">21:00</p>
+                    <img src="./img/weekday1.svg" alt="">
+                    <p class="hourlyForecastTemperature4">26°C</p>
+                    <img src="./img/navigation 4.svg" alt="">
+                    <p class="hourlyForecastSpeed4">3km/h</p>
+                </div>
+                <div class="hourlyForecast5">
+                    <p class="hourlyForecastTime5">00:00</p>
+                    <img src="./img/weekday3.svg" alt="">
+                    <p class="hourlyForecastTemperature5">26°C</p>
+                    <img src="./img/navigation 5.svg" alt="">
+                    <p class="hourlyForecastSpeed5">3km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./WeatherForecast.js"></script>
+</body>
+</html>
